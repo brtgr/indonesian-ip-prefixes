@@ -1,8 +1,8 @@
 # Indonesian IP Address List
 # Supported and tested on MikroTik RoS 6.x or latest
 # Script created by Dewangga Alam <dewangga@beritagar.id>
-# Last update: Wed Feb 22 14:22:09 2017 
-# Processed 12846 prefix(es) in 0.05 seconds
+# Last update: Wed Feb 22 14:43:43 2017 
+# Processed 12846 prefix(es) in 0.08 seconds
 
 /ip firewall address-list
 add list=nice address="1.2.3.4"
