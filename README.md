@@ -5,8 +5,9 @@ Generate Indonesian Prefixes
 
 Repository ini digunakan untuk mendeteksi route dan prefix dari/ke Indonesia. Metode yang digunakan sangat sederhana, kami mengambil prefix Indonesia yang diadvertise ke [OpenIXP](www.openixp.net) dan [IIX](iix.net.id). Prefix yang di generate diambil dari route reflector, dan di translasikan menggunakan script python.
 
-ASN OpenIXP: 7717
-ASN IIX: 7597
+ASN OpenIXP: `7717`
+
+ASN IIX: `7597`
 
 ## Generate Prefix Advertised to OpenIXP
 ```
@@ -17,6 +18,22 @@ ASN IIX: 7597
 ```
 :foreach i in [/ip route find where bgp-as-path ~ "^7597" received-from=DIRECT-IIX ] do={:put [/ip route get $i dst-address ]}
 
+```
+
+# Cara penggunaan
+
+```
+[admin@MikroTik] > /tool fetch url="http://sumberterbuka.beritagar.id/id.rsc" mode=http;                                          
+      status: finished
+  downloaded: 551KiBz pause]
+       total: 551KiB
+    duration: 1s
+```
+
+Kemudian import file `id.rsc`.
+
+```
+[admin@MikroTik] > /import id.rsc
 ```
 
 # Limitasi
