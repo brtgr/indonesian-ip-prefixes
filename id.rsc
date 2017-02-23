@@ -1,8 +1,8 @@
 # Indonesian IP Address List
 # Supported and tested on MikroTik RoS 6.x or latest
 # Script created by Dewangga Alam <dewangga@beritagar.id>
-# Last update: Fri Feb 24 04:42:26 2017 
-# Processed 12852 prefix(es) in 0.03 seconds
+# Last update: Fri Feb 24 04:42:43 2017 
+# Processed 12852 prefix(es) in 0.04 seconds
 
 /ip firewall address-list
 add list=prefixid address="1.2.3.4"
@@ -46,7 +46,6 @@ add list=prefixid address="122.200.51.0/24"
 add list=prefixid address="112.78.176.0/24"
 add list=prefixid address="180.253.152.0/21"
 add list=prefixid address="103.2.146.0/24"
-add list=prefixid address="3.142.80.0/24"
 add list=prefixid address="103.226.55.0/24"
 add list=prefixid address="101.255.6.0/23"
 add list=prefixid address="117.54.231.0/24"
@@ -3496,7 +3495,6 @@ add list=prefixid address="139.193.128.0/19"
 add list=prefixid address="180.245.104.0/22"
 add list=prefixid address="61.5.40.0/22"
 add list=prefixid address="103.71.226.0/24"
-add list=prefixid address="2.158.118.0/23"
 add list=prefixid address="115.85.65.0/24"
 add list=prefixid address="36.37.84.0/24"
 add list=prefixid address="222.124.174.0/24"
@@ -5544,6 +5542,7 @@ add list=prefixid address="27.111.33.0/24"
 add list=prefixid address="118.97.111.0/24"
 add list=prefixid address="117.54.80.0/20"
 add list=prefixid address="203.174.12.0/22"
+add list=prefixid address="8.100.41.0/24"
 add list=prefixid address="202.154.18.0/24"
 add list=prefixid address="117.103.33.0/24"
 add list=prefixid address="202.51.125.0/24"
@@ -10227,6 +10226,7 @@ add list=prefixid address="114.6.145.0/24"
 add list=prefixid address="117.102.106.0/24"
 add list=prefixid address="110.139.223.0/24"
 add list=prefixid address="119.235.31.0/24"
+add list=prefixid address="2.182.51.0/24"
 add list=prefixid address="118.96.4.0/22"
 add list=prefixid address="61.94.139.0/24"
 add list=prefixid address="202.91.31.0/24"
@@ -12861,4 +12861,4 @@ add list=prefixid address="36.73.144.0/20"
 add list=prefixid address="202.134.4.0/23"
 add list=prefixid address="103.255.15.0/24"
 add list=prefixid address="103.23.244.0/24"
-add list=prefixid address="123.231"
+add list=prefixid address="123.231."
