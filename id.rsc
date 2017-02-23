@@ -1,8 +1,8 @@
 # Indonesian IP Address List
 # Supported and tested on MikroTik RoS 6.x or latest
 # Script created by Dewangga Alam <dewangga@beritagar.id>
-# Last update: Fri Feb 24 04:42:44 2017 
-# Processed 12852 prefix(es) in 0.04 seconds
+# Last update: Fri Feb 24 04:42:50 2017 
+# Processed 12852 prefix(es) in 0.03 seconds
 
 /ip firewall address-list
 add list=prefixid address="1.2.3.4"
@@ -121,7 +121,6 @@ add list=prefixid address="117.54.0.0/16"
 add list=prefixid address="103.234.210.0/24"
 add list=prefixid address="114.7.82.0/24"
 add list=prefixid address="103.21.204.0/24"
-add list=prefixid address="3.84.158.0/24"
 add list=prefixid address="66.96.232.0/24"
 add list=prefixid address="121.50.36.0/24"
 add list=prefixid address="114.125.103.0/24"
@@ -1423,7 +1422,6 @@ add list=prefixid address="202.162.196.0/24"
 add list=prefixid address="36.68.184.0/21"
 add list=prefixid address="180.246.152.0/22"
 add list=prefixid address="110.136.208.0/21"
-add list=prefixid address=".124.124.0/22"
 add list=prefixid address="202.148.3.0/24"
 add list=prefixid address="116.193.189.0/24"
 add list=prefixid address="180.247.224.0/21"
@@ -12125,6 +12123,7 @@ add list=prefixid address="180.243.68.0/23"
 add list=prefixid address="118.96.152.0/23"
 add list=prefixid address="122.129.198.0/23"
 add list=prefixid address="124.195.59.0/24"
+add list=prefixid address="0.210.132.0/24"
 add list=prefixid address="36.73.32.0/22"
 add list=prefixid address="61.8.76.0/22"
 add list=prefixid address="202.78.195.0/24"
@@ -12861,4 +12860,5 @@ add list=prefixid address="36.73.144.0/20"
 add list=prefixid address="202.134.4.0/23"
 add list=prefixid address="103.255.15.0/24"
 add list=prefixid address="103.23.244.0/24"
-add list=prefixid address="123.231."
+add list=prefixid address="123.231.251.0/24"
+add list=prefixid address="101."
