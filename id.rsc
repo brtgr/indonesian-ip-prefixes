@@ -1,8 +1,8 @@
 # Indonesian IP Address List
 # Supported and tested on MikroTik RoS 6.x or latest
 # Script created by Dewangga Alam <dewangga@beritagar.id>
-# Last update: Fri Feb 24 04:42:50 2017 
-# Processed 12852 prefix(es) in 0.03 seconds
+# Last update: Fri Feb 24 04:43:02 2017 
+# Processed 12852 prefix(es) in 0.04 seconds
 
 /ip firewall address-list
 add list=prefixid address="1.2.3.4"
@@ -304,6 +304,7 @@ add list=prefixid address="118.137.160.0/19"
 add list=prefixid address="103.56.205.0/24"
 add list=prefixid address="120.89.94.0/23"
 add list=prefixid address="180.241.32.0/21"
+add list=prefixid address="9.83.110.0/24"
 add list=prefixid address="114.199.93.0/24"
 add list=prefixid address="202.58.217.0/24"
 add list=prefixid address="66.96.229.0/24"
@@ -12123,7 +12124,6 @@ add list=prefixid address="180.243.68.0/23"
 add list=prefixid address="118.96.152.0/23"
 add list=prefixid address="122.129.198.0/23"
 add list=prefixid address="124.195.59.0/24"
-add list=prefixid address="0.210.132.0/24"
 add list=prefixid address="36.73.32.0/22"
 add list=prefixid address="61.8.76.0/22"
 add list=prefixid address="202.78.195.0/24"
@@ -12861,4 +12861,4 @@ add list=prefixid address="202.134.4.0/23"
 add list=prefixid address="103.255.15.0/24"
 add list=prefixid address="103.23.244.0/24"
 add list=prefixid address="123.231.251.0/24"
-add list=prefixid address="101."
+add list=prefixid address="101.2"
