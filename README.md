@@ -3,7 +3,7 @@ Generate Indonesian Prefixes
 
 # Background
 
-Repository ini digunakan untuk mendeteksi route dan prefix dari/ke Indonesia. Metode yang digunakan sangat sederhana, kami mengambil prefix Indonesia yang diadvertise ke [OpenIXP](www.openixp.net) dan [IIX](iix.net.id). Prefix yang di generate diambil dari route reflector, dan di translasikan menggunakan script python.
+Repository ini digunakan untuk mendeteksi route dan prefix dari/ke Indonesia. Metode yang digunakan sangat sederhana, kami mengambil prefix Indonesia yang diadvertise ke [OpenIXP](http://www.openixp.net) dan [IIX](http://iix.net.id). Prefix yang di generate diambil dari route reflector, dan di translasikan menggunakan script python.
 
 ASN OpenIXP: `7717`
 
