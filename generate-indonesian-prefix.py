@@ -39,8 +39,7 @@ with open('id.rsc', "r+") as f:
 	f.write("add list=prefixid address=\"1.2.3.4\"\n")
 	f.write("rem [find list=\"prefixid\"]\n")
 	f.write("add list=prefixid address=\"103.52.2.0/23\"\n")
-	f.write("add list=prefixid address=\"103.52.2.0/24\"\n")
-	f.write("add list=prefixid address=\"103.52.3.0/24\"\n")
+	f.write("add list=prefixid address=\"103.87.70.0/23\"\n")
         f.write(first_line)
         f.writelines(lines)    
 
