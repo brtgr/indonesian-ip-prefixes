@@ -1,7 +1,7 @@
 # Indonesian IP Address List
 # Supported and tested on MikroTik RoS 6.x or latest
 # Script created by Dewangga Alam <dewangga@beritagar.id>
-# Last update: Mon May 22 00:00:01 2017 
+# Last update: Tue May 23 00:00:01 2017 
 # Processed 0 prefix(es) in 0.0 seconds
 
 /ip firewall address-list
